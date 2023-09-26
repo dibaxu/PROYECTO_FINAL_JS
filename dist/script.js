@@ -1,5 +1,5 @@
 const movieContainer = document.querySelector("#movies-container");
-fetch("../dist/western_movies.json")
+fetch("./western_movies.json")
   .then((respuesta) => respuesta.json())
   .then((datos) => localStorage.setItem("peliculas", JSON.stringify(datos)));
 
