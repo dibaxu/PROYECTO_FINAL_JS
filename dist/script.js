@@ -1,36 +1,3 @@
-// function createProductCard(productName, productPrice=0, productDescription, imageUrl="") {
-//     // Create a card element
-//     const card = document.createElement('div');
-//     card.classList.add('bg-slate-400'); // You can define CSS styles for 'product-card' class
-
-//     // Create an image element
-//     const image = document.createElement('img');
-//     image.src = imageUrl;
-//     image.alt = productName;
-
-//     // Create a card body
-//     const cardBody = document.createElement('div');
-//     cardBody.classList.add('card-body'); // You can define CSS styles for 'card-body' class
-
-//     // Create product details
-//     const title = document.createElement('h5');
-//     title.textContent = productName;
-
-//     const price = document.createElement('p');
-//     price.textContent = 'Price: $' + productPrice;
-
-//     const description = document.createElement('p');
-//     description.textContent = productDescription;
-
-//     // Append elements to the card
-//     card.appendChild(image);
-//     card.appendChild(cardBody);
-//     cardBody.appendChild(title);
-//     cardBody.appendChild(price);
-//     cardBody.appendChild(description);
-
-//     return card;
-// }
 const movieContainer = document.querySelector("#movies-container");
 fetch("./western_movies.json")
   .then((respuesta) => respuesta.json())
@@ -83,13 +50,3 @@ function mostrarDetallesPelicula(pelicula) {
 // }
 // movies()
 
-// Example usage:
-// const product = createProductCard(
-//     'Product Name',
-//     19.99,
-//     'Product description goes here.',
-//     'product-image.jpg'
-// );
-
-// // Add the product card to a container element in your HTML
-// document.getElementById('product-container').appendChild(product);
