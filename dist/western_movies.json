@@ -1,0 +1,72 @@
+[
+    {
+      "name": "The Good, the Bad and the Ugly",
+      "actors": "Clint Eastwood, Eli Wallach, Lee Van Cleef",
+      "publish_date": "December 23, 1966",
+      "img": "../assets/The_Good_the_Bad_and_the_Ugly.jpg",
+      "trailer": "https://www.youtube.com/watch?v=WCN5JJY_wiA"
+    },
+    {
+      "name": "Once Upon a Time in the West",
+      "actors": "Henry Fonda, Charles Bronson, Claudia Cardinale",
+      "publish_date": "December 21, 1968",
+      "img": "../assets/Once_Upon_a_Time_in_the_West.jpg",
+      "trailer": "https://www.youtube.com/watch?v=c8CJ6L0I6W8"
+    },
+    {
+      "name": "The Searchers",
+      "actors": "John Wayne, Jeffrey Hunter, Vera Miles",
+      "publish_date": "March 13, 1956",
+      "img": "../assets/The_Searchers.jpg",
+      "trailer": "https://www.youtube.com/watch?v=ii_7QnXPQxA"
+    },
+    {
+      "name": "High Noon",
+      "actors": "Gary Cooper, Grace Kelly, Thomas Mitchell",
+      "publish_date": "July 30, 1952",
+      "img": "../assets/High_Noon.jpg",
+      "trailer": "https://www.youtube.com/watch?v=g9CR_tib0CA"
+    },
+    {
+      "name": "Unforgiven",
+      "actors": "Clint Eastwood, Gene Hackman, Morgan Freeman",
+      "publish_date": "August 3, 1992",
+      "img": "../assets/Unforgiven.webp",
+      "trailer": "https://www.youtube.com/watch?v=ftTX4FoBWlE"
+    },
+    {
+      "name": "Django Unchained",
+      "actors": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
+      "publish_date": "December 25, 2012",
+      "img": "../assets/Django_Unchained.webp",
+      "trailer": "https://www.youtube.com/watch?v=0fUCuvNlOCg"
+    },
+    {
+      "name": "True Grit",
+      "actors": "John Wayne, Kim Darby, Glen Campbell",
+      "publish_date": "June 11, 1969",
+      "img": "../assets/True_Grit.jpg",
+      "trailer": "https://www.youtube.com/watch?v=aOHGKCle-aY"
+    },
+    {
+      "name": "The Magnificent Seven",
+      "actors": "Yul Brynner, Steve McQueen, Charles Bronson",
+      "publish_date": "October 23, 1960",
+      "img": "../assets/The_Magnificent_Seven.jpg",
+      "trailer": "https://www.youtube.com/watch?v=bG-ZxrG7htU"
+    },
+    {
+      "name": "The Wild Bunch",
+      "actors": "William Holden, Ernest Borgnine, Robert Ryan",
+      "publish_date": "June 17, 1969",
+      "img": "../assets/The_Wild_Bunch.webp",
+      "trailer": "https://www.youtube.com/watch?v=bKH6zLuHTAA"
+    },
+    {
+      "name": "Tombstone",
+      "actors": "Kurt Russell, Val Kilmer, Sam Elliott",
+      "publish_date": "December 25, 1993",
+      "img": "../assets/Tombstone.webp",
+      "trailer": "https://www.youtube.com/watch?v=XTWYKf5hXIg"
+    }
+  ]

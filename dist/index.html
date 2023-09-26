@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box-border antialiased font-sans">
+    <header class="text-white w-full h-screen flex flex-wrap ">
+      
+        <video autoplay loop playsinline preload="auto" src="https://assets.mubicdn.net/splash-videos/18/1694788691_video_h265_tablet.mp4" class="absolute -z-0 w-full h-full object-cover" muted=""></video>
+      
+
+      
+        <nav class="flex flex-row w-full z-10 pt-5 mx-28 justify-between">
+          <div class="flex flex-row">
+            <a href="index.html">
+            <span class="text-xl font-bold text-white">MUVI</span>
+            </a>
+          </div>        
+          <ul class="flex flex-row space-x-4">        
+            <li><a href="">Nosotros</a></li>
+            <li><a href="#movies-container">Peliculas</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </nav>      
+  
+        <div class="z-10 ml-28 mt-28">
+          <h1 class="text-6xl font-semibold pb-64">VE EL MEJOR CINE</h1>
+          <h2 class="text-2xl font-semibold pb-5">Prueba 7 Días Gratis</h2>
+          <div class="flex pb-5">
+            <input type="email" placeholder="Dirección de email" class="w-1/2 focus:shadow-soft-primary-outline text-base ease-soft block appearance-none rounded-none border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-4 font-normal text-neutral-900 outline-none transition-all placeholder:text-gray-500 focus:border-gray-500 focus:outline-none" value="" id="email">
+            <button type="submit" class="py-3.5 px-6 font-bold text-lg cursor-pointer uppercase border-solid bg-blue-900 hover:bg-blue-800 transition-all" id="" for="email">Empezar</button>
+          </div>
+          <div class="text-xs">
+            <span>Al hacer clic en 'Empezar' indicas que leíste y estuviste de acuerdo con los <a target="_blank" rel="noopener noreferrer" href="/es/terms_of_service" class="underline underline-offset-1">Términos de Servicio</a> y la <a target="_blank" rel="noopener noreferrer" href="/es/privacy_policy" class="underline underline-offset-1">Privacidad</a></span>
+          </div>
+        </div>
+      
+      
+    </header>
+
+    <main class="z-10 pt-14">
+      <div id="movies-container" class="flex flex-wrap justify-evenly align-middle items-center gap-16 p-5 mx-auto">
+        <!-- <div class="relative flex flex-wrap w-full md:w-4/12 h-48 bg-gradient-to-tr from-slate-600 to-slate-400 rounded-md hover:ring-2 ring-blue-600 shadow-xl transition-all duration-200" >
+          <img src="../assets/Django_Unchained.webp" alt="" class="absolute w-full h-full object-cover bg-center rounded-md mix-blend-overlay">
+          <div class="flex flex-wrap flex-col absolute bottom-0 left-0 text-white pl-3 leading-4">
+            <h3 class="font-bold text-xl ">EJEMPLO</h3>
+            <p class="pb-2 "><span class="font-semibold">actores</span> 2020</p>
+          </div>
+        </div> -->
+      </div>
+      
+      <section class="flex flex-wrap justify-evenly align-middle items-center gap-16 p-5 mx-auto" id="section-muvi">        
+        <div class="flex flex-row items-end">
+          <span class="text-6xl font-bold text-neutral-900">MUVI </span>
+          <img src="../assets/MUBI-logo.png" alt="MUVI LOGO" class="w-16 h-auto ml-5">
+        </div>
+        <div class="text-neutral-600 font-semibold text-lg">
+          <span>Desde clásicos de culto hasta obras maestras modernas. <br></span> <span>Desde los grandes cineastas de la historia<br></span> <span>a los mejores directores nuevos.<br></span> <span>Películas de todo el mundo.</span>
+        </div>
+      </section>
+    </main>
+    <footer>
+  
+    </footer>
+  </div>  
+
+  <script src="script.js"></script>
+  <script src="fetch.js"></script>
+</body>
+</html>
