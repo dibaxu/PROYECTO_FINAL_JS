@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
   if (datosPeliculas) {
     datosPeliculas.forEach((pelicula)=> {
       const peliculaCard = document.createElement("div");
-      peliculaCard.classList.add(`cursor-pointer` ,'relative', `flex`, `flex-wrap`, `w-full` ,`md:w-4/12`, `h-48`, `bg-gradient-to-tr`, `from-slate-600`, `to-slate-400`, `rounded-md`, `hover:ring-2`, `ring-blue-600`, `shadow-xl`, `transition-all`, `duration-200`);
+      peliculaCard.classList.add(`cursor-pointer` ,'relative', `flex`, `flex-wrap`, `w-full` ,`md:w-5/12`, `lg:w-5/12` ,`h-48`, `bg-gradient-to-tr`, `from-slate-600`, `to-slate-400`, `rounded-md`, `hover:ring-2`, `ring-blue-600`, `shadow-xl`, `transition-all`, `duration-200`);
 
       peliculaCard.innerHTML += `<img src=${pelicula.img} alt="" class="absolute w-full h-full object-cover bg-center rounded-md mix-blend-overlay">`;
       peliculaCard.innerHTML += `<div class="flex flex-wrap flex-col absolute bottom-0 left-0 text-white pl-3 leading-4">
-               <h3 class="font-bold text-xl ">${pelicula.name}</h3>
-               <p class="pb-2 "><span class="font-semibold">${pelicula.actors}</span>, ${pelicula.publish_date}</p>
+               <h3 class="font-bold text-xl uppercase">${pelicula.name}</h3>
+               <p class="pb-2 text-sm"><span class="font-semibold">${pelicula.actors}</span>, ${pelicula.publish_date}</p>
              </div>`;
       peliculaCard.addEventListener("click", ()=> {
         mostrarDetallesPelicula(pelicula);

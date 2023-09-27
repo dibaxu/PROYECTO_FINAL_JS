@@ -9,7 +9,7 @@
 <body>   
     <div class="box-border antialiased font-sans">
         <header class="text-white w-full flex flex-wrap ">                        
-            <img src="" id="fondo-pelicula" class="absolute -z-0 w-full h-5/6 object-cover" alt="Frame de la pelicula">  
+            <img src="" id="fondo-pelicula" class="absolute -z-0 w-full h-5/6 object-cover filter brightness-50" alt="Frame de la pelicula">  
             <nav class="flex flex-row w-full z-10 pt-5 mx-28 justify-between">
                 <div class="flex flex-row items-end">
                   <span class="text-xl font-bold text-white"><a href="index.html">MUVI</a> </span>                  
@@ -20,7 +20,7 @@
                   <li><a href="">Contacto</a></li>
                 </ul>
             </nav>      
-            <div class="z-10 mx-auto my-28 pb-24">
+            <div class="z-10 mx-auto mt-28 pb-24">
                 <div id="info-pelicula" class="flex flex-col pb-3">
                     <!-- <h1 class="text-6xl font-semibold pb-2 text-center">TITULO PELI</h1>
                     <p class="text-center pb-3"><span class="font-semibold">Henry Fonda, Charles Bronson, Claudia Cardinale.</span> December 21, 1968</p>
@@ -43,17 +43,83 @@
                 </div>
               </div>           
           </header>
-          <body>
-            <section class="flex flex-wrap justify-evenly align-middle items-center gap-16 p-5 mx-auto" id="section-muvi">        
-                <div class="flex flex-row items-end">
-                  <span class="text-6xl font-bold text-neutral-900">MUVI </span>
-                  <img src="./assets/MUBI-logo.png" alt="MUVI LOGO" class="w-16 h-auto ml-5">
-                </div>
-                <div class="text-neutral-600 font-semibold text-lg">
-                  <span>Desde clásicos de culto hasta obras maestras modernas. <br></span> <span>Desde los grandes cineastas de la historia<br></span> <span>a los mejores directores nuevos.<br></span> <span>Películas de todo el mundo.</span>
-                </div>
-              </section>
-          </body>
+          <main>
+            <section
+          class="relative flex flex-wrap w-full h-60 justify-evenly align-middle items-center px-28"
+          id="section-muvi"
+        >
+          
+          <div class="absolute top-16 left-64 w-40 h-40 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
+          <div class="absolute top-20 left-72 w-40 h-40 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
+          <div class="absolute top-20 left-72 w-40 h-40 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
+          
+          <div class="flex flex-row items-end w-1/2 justify-center">
+            <span class="text-6xl font-bold text-neutral-900">MUVI </span>
+            <img
+              src="./assets/MUBI-logo.png"
+              alt="MUVI LOGO"
+              class="w-16 h-auto ml-5"
+            />
+          </div>
+          <div class="text-neutral-600 font-semibold text-lg w-1/2">
+            <span
+              >Desde clásicos de culto hasta obras maestras modernas. <br
+            /></span>
+            <span>Desde los grandes cineastas de la historia<br /></span>
+            <span>a los mejores directores nuevos.<br /></span>
+            <span>Películas de todo el mundo.</span>
+          </div>
+        </section>
+        <section class="w-full relative h-80 flex items-end bg-cover bg-fixed bg-center overflow-y-scroll" style="background-image: url(https://images.mubicdn.net/splash/grand_budapest_hotel_dark.jpg);">                    
+          <p class="z-10 font-semibold text-2xl py-7 px-28 text-white">
+            ÚNETE A LA COMUNIDAD DE CINÉFILOS MÁS GRANDE DEL MUNDO. DESCUBRE EL MEJOR CINE Y HABLA SOBRE ÉL CON MÁS DE 12 MILLONES DE MIEMBROS.
+          </p>
+        </section>
+      </main>
+      <footer class="bg-zinc-50 w-full h-96">
+        <div class="ml-28 pt-24">
+          <h3 class="text-2xl font-semibold pb-9">VE CINE REALMENTE GRANDIOSO EN STREAMING.</h3>
+          <h4 class="text-2xl font-semibold pb-3">Prueba 7 Días Gratis</h4>
+          <div class="flex pb-5">
+            <input
+              type="email"
+              placeholder="Dirección de email"
+              class="w-96 focus:shadow-soft-primary-outline text-base ease-soft block appearance-none rounded-none border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-4 font-normal text-neutral-900 outline-none transition-all placeholder:text-gray-500 focus:border-gray-400 focus:outline-none"
+              value=""
+              id="email"
+            />
+            <button
+              type="submit"
+              class="text-white py-3.5 px-6 font-bold text-lg cursor-pointer uppercase border-solid bg-blue-900 hover:bg-blue-800 transition-all"
+              id=""
+              for="email"
+            >
+              Empezar
+            </button>
+          </div>
+          <div class="text-xs">
+            <span
+              >Al hacer clic en 'Empezar' indicas que leíste y estuviste de
+              acuerdo con los
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/es/terms_of_service"
+                class="underline underline-offset-1"
+                >Términos de Servicio</a
+              >
+              y la
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/es/privacy_policy"
+                class="underline underline-offset-1"
+                >Privacidad</a
+              ></span
+            >
+          </div>
+        </div>
+      </footer>    
     </div>
     <script src="./dist/pelicula.js"></script>
 </body>
