@@ -20,7 +20,9 @@
           muted=""
         ></video>
 
-        <nav class="flex flex-row w-full z-10 pt-5 mx-4 md:mx-28 justify-between">
+        <nav
+          class="flex flex-row w-full z-10 pt-5 mx-4 md:mx-28 justify-between"
+        >
           <div class="flex flex-row">
             <a href="index.html">
               <span class="text-xl font-bold text-white">MUVI</span>
@@ -77,30 +79,36 @@
         </div>
       </header>
 
-      <main class="z-10 pt-14">
+      <main class="w-full h-max">
         <div
           id="movies-container"
-          class="flex flex-wrap bg-zinc-50 justify-evenly align-middle items-center mx-4 gap-y-8 md:mx-8 md:gap-x-2 lg:mx-28 pb-14 md:gap-y-16 lg:gap-x-4"
+          class="flex flex-wrap w-full justify-evenly md:justify-between align-middle items-center py-14 bg-zinc-50 gap-y-8 md:gap-y-16 px-2 md:px-28 gap-x-1 "
         >
-          <!-- <div class="relative flex flex-wrap w-full md:w-4/12 h-48 bg-gradient-to-tr from-slate-600 to-slate-400 rounded-md hover:ring-2 ring-blue-600 shadow-xl transition-all duration-200" >
-          <img src="../assets/Django_Unchained.webp" alt="" class="absolute w-full h-full object-cover bg-center rounded-md mix-blend-overlay">
-          <div class="flex flex-wrap flex-col absolute bottom-0 left-0 text-white pl-3 leading-4">
-            <h3 class="font-bold text-xl ">EJEMPLO</h3>
-            <p class="pb-2 "><span class="font-semibold">actores</span> 2020</p>
-          </div>
-        </div> -->
+        <h2 class="font-bold text-2xl w-full text-neutral-600">En Cartelera</h2>
+          <!-- <div class="cursor-pointer relative flex flex-wrap w-full md:w-4/12 h-48 bg-gradient-to-tr from-slate-600 to-slate-400 rounded-md shadow-xl transition-all duration-200" >
+            <img src="../assets/Django_Unchained.webp" alt="" class="absolute w-full h-full object-cover bg-center rounded-md mix-blend-overlay hover:brightness-75 transition-all duration-200">
+            <div class="flex flex-wrap flex-col absolute bottom-0 left-0 text-white pl-3 leading-4">
+              <h3 class="font-bold text-xl ">EJEMPLO</h3>
+              <p class="pb-2 "><span class="font-semibold">actores</span> 2020</p>
+            </div>
+          </div> -->
         </div>
 
         <section
-          class="bg-zinc-50 relative flex flex-wrap w-full h-60 justify-evenly align-middle items-center px-5 md:px-28"
+          class="bg-zinc-50 relative flex flex-wrap w-full h-max md:h-60 justify-evenly align-middle items-center py-12 px-5 md:px-28 gap-y-4"
           id="section-muvi"
-        >
-          
-          <div class="absolute top-16 left-64 w-40 h-40 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
-          <div class="absolute top-20 left-72 w-40 h-40 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
-          <div class="absolute top-20 left-72 w-40 h-40 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
-          
+        >          
+
           <div class="flex flex-row items-end w-1/2 justify-center">
+            <div
+            class="absolute top-16 left-64 w-40 h-40 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"
+          ></div>
+          <div
+            class="absolute top-20 left-72 w-40 h-40 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"
+          ></div>
+          <div
+            class="absolute top-20 left-72 w-40 h-40 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"
+          ></div>
             <span class="text-6xl font-bold text-neutral-900">MUVI </span>
             <img
               src="./assets/MUBI-logo.png"
@@ -108,25 +116,35 @@
               class="w-16 h-auto ml-5"
             />
           </div>
-          <div class="text-neutral-600 font-semibold text-lg w-1/2">
-            <span
-              >Desde clásicos de culto hasta obras maestras modernas. <br
-            /></span>
-            <span>Desde los grandes cineastas de la historia<br /></span>
-            <span>a los mejores directores nuevos.<br /></span>
-            <span>Películas de todo el mundo.</span>
+          <div class="flex flex-wrap items-center md:items-start flex-col text-neutral-600 font-semibold text-lg w-full md:w-1/2">
+            <p>
+              <span
+                >Desde clásicos de culto hasta obras maestras modernas. <br
+              /></span>
+              <span>Desde los grandes cineastas de la historia<br /></span>
+              <span>a los mejores directores nuevos.<br /></span>
+              <span>Películas de todo el mundo.</span>
+            </p>
           </div>
         </section>
-        
-        <section class="w-full relative h-80 flex items-end bg-cover bg-fixed bg-center overflow-y-scroll" style="background-image: url(https://images.mubicdn.net/splash/grand_budapest_hotel_dark.jpg);">                    
-          <p class="z-10 font-semibold text-2xl py-7 px-5 md:px-28 text-white">
-            ÚNETE A LA COMUNIDAD DE CINÉFILOS MÁS GRANDE DEL MUNDO. DESCUBRE EL MEJOR CINE Y HABLA SOBRE ÉL CON MÁS DE 12 MILLONES DE MIEMBROS.
+
+        <section
+          class="w-full relative h-[325px] md:h-[540px] 2xl:h-[660px] flex items-end bg-cover bg-fixed bg-center overflow-y-scroll"
+          style="
+            background-image: url(https://images.mubicdn.net/splash/grand_budapest_hotel_dark.jpg);
+          "
+        >
+          <p class="z-10 font-semibold text-2xl py-12 px-2 md:px-28 text-white">
+            ÚNETE A LA COMUNIDAD DE CINÉFILOS MÁS GRANDE DEL MUNDO. DESCUBRE EL
+            MEJOR CINE Y HABLA SOBRE ÉL CON MÁS DE 12 MILLONES DE MIEMBROS.
           </p>
         </section>
       </main>
       <footer class="bg-zinc-50 w-full h-96">
         <div class="ml-4 md:ml-28 pt-24">
-          <h3 class="text-2xl font-semibold pb-9">VE CINE REALMENTE GRANDIOSO EN STREAMING.</h3>
+          <h3 class="text-2xl font-semibold pb-9">
+            VE CINE REALMENTE GRANDIOSO EN STREAMING.
+          </h3>
           <h4 class="text-2xl font-semibold pb-3">Prueba 7 Días Gratis</h4>
           <div class="flex pb-5">
             <input
