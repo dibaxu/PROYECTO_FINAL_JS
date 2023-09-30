@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MUVI, EL MEJOR CINE</title>
+    <title>MUVI: Descubre buen cine</title>
+    <link href="https://mubi.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="./dist/output.css" rel="stylesheet" />
     <link rel="./dist/style.css" href="style.css" />
   </head>
@@ -15,9 +16,10 @@
           loop
           playsinline
           preload="auto"
-          src="https://assets.mubicdn.net/splash-videos/18/1694788691_video_h265_tablet.mp4"
+          src="./assets/1694788691_video_h265_tablet.mp4"
+          poster="./assets/volver.jpg"
           class="absolute -z-0 w-full h-full object-cover"
-          muted=""
+          muted
         ></video>
 
         <nav
@@ -25,7 +27,8 @@
         >
           <div class="flex flex-row">
             <a href="index.html">
-              <span class="text-xl font-bold text-white">MUVI</span>
+              <!-- <span class="text-xl font-bold text-white">MUVI</span> -->
+              <img src="./assets/svg2.svg" alt="logotipo MUVI">
             </a>
           </div>
           <ul class="flex flex-row space-x-4">
@@ -42,13 +45,13 @@
             <input
               type="email"
               placeholder="Dirección de email"
-              class="w-1/2 focus:shadow-soft-primary-outline text-base ease-soft block appearance-none rounded-none border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-4 font-normal text-neutral-900 outline-none transition-all placeholder:text-gray-500 focus:border-gray-500 focus:outline-none"
+              class="w-64 md:w-96 focus:shadow-soft-primary-outline text-base ease-soft block appearance-none rounded-none border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-4 font-normal text-neutral-900 outline-none transition-all placeholder:text-gray-500 focus:border-gray-500 focus:outline-none"
               value=""
               id="email"
             />
             <button
               type="submit"
-              class="py-3.5 px-6 font-bold text-lg cursor-pointer uppercase border-solid bg-blue-900 hover:bg-blue-800 transition-all"
+              class="py-3 px-4 md:py-3.5 md:px-6 font-bold text-base md:text-lg cursor-pointer uppercase border-solid bg-blue-900 hover:bg-blue-800 transition-all"
               id=""
               for="email"
             >
@@ -101,13 +104,13 @@
 
           <div class="flex flex-row items-end w-1/2 justify-center">
             <div
-            class="absolute top-16 left-64 w-40 h-40 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"
+            class="absolute top-16 left-24 md:left-56 lg:left-64 w-20 h-20 lg:w-40 lg:h-40 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"
           ></div>
           <div
-            class="absolute top-20 left-72 w-40 h-40 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"
+            class="absolute top-20 left-32 md:left-48 lg:left-72 w-20 h-20 lg:w-40 lg:h-40 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"
           ></div>
           <div
-            class="absolute top-20 left-72 w-40 h-40 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"
+            class="absolute top-20 left-32 md:left-48 lg:left-72 w-20 h-20 lg:w-40 lg:h-40 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"
           ></div>
             <span class="text-6xl font-bold text-neutral-900">MUVI </span>
             <img
@@ -150,13 +153,13 @@
             <input
               type="email"
               placeholder="Dirección de email"
-              class="w-96 focus:shadow-soft-primary-outline text-base ease-soft block appearance-none rounded-none border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-4 font-normal text-neutral-900 outline-none transition-all placeholder:text-gray-500 focus:border-gray-400 focus:outline-none"
+              class="w-64 md:w-96 focus:shadow-soft-primary-outline text-base ease-soft block appearance-none rounded-none border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-4 font-normal text-neutral-900 outline-none transition-all placeholder:text-gray-500 focus:border-gray-400 focus:outline-none"
               value=""
               id=""
             />
             <button
               type="submit"
-              class="text-white py-3.5 px-6 font-bold text-lg cursor-pointer uppercase border-solid bg-blue-900 hover:bg-blue-800 transition-all"
+              class="text-white py-3 px-4 md:py-3.5 md:px-6 font-bold text-base md:text-lg cursor-pointer uppercase border-solid bg-blue-900 hover:bg-blue-800 transition-all"
               id=""
               for="email"
             >
